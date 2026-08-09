@@ -43,7 +43,7 @@ a { color: inherit; }
 .skip-link:focus { left: .5rem; top: .5rem; }
 
 .site-header {
-  background: rgba(247,242,233,.94);
+  background: #eee6d6;
   backdrop-filter: blur(8px);
   border-bottom: 1px solid rgba(200,150,57,.34);
 }
