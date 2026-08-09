@@ -73,6 +73,7 @@ a { color: inherit; }
   mix-blend-mode: multiply;
 }
 
+/* Header brand layout: small mark + large title */
 .brand-link {
   display: inline-flex;
   align-items: center;
@@ -81,7 +82,7 @@ a { color: inherit; }
   color: inherit;
 }
 .brand-mark {
-  width: 64px;
+  width: 45px; /* ~70% of previous 64px */
   height: auto;
   display: block;
 }
@@ -94,7 +95,7 @@ a { color: inherit; }
 }
 
 @media (max-width: 780px) {
-  .brand-mark { width: 56px; }
+  .brand-mark { width: 40px; /* ~70% of previous 56px */ }
   .brand-name { font-size: clamp(1.4rem, 6vw, 2.4rem); }
 }
 
