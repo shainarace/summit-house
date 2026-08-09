@@ -68,7 +68,7 @@ a { color: inherit; }
 }
 
 .brand-logo {
-  width: min(760px, 94vw);
+  width: min(460px, 94vw);
   margin: 0 auto;
   mix-blend-mode: multiply;
 }
