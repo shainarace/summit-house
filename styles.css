@@ -52,6 +52,7 @@ a { color: inherit; }
   max-width: var(--max);
   margin: 0 auto;
   padding: 1.25rem 1.25rem .8rem;
+  background: #eee6d6;
 }
 
 .brand-logo {
