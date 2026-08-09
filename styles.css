@@ -76,7 +76,7 @@ a { color: inherit; }
 .brand-link {
   display: inline-flex;
   align-items: center;
-  gap: .9rem;
+  gap: 1rem;
   text-decoration: none;
   color: inherit;
 }
@@ -87,14 +87,15 @@ a { color: inherit; }
 }
 .brand-name {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.25rem;
+  font-size: clamp(1.8rem, 4vw, 3.8rem);
   color: var(--navy);
-  font-weight: 700;
+  font-weight: 800;
+  line-height: 1;
 }
 
 @media (max-width: 780px) {
-  .brand-mark { width: 48px; }
-  .brand-name { font-size: 1.05rem; }
+  .brand-mark { width: 56px; }
+  .brand-name { font-size: clamp(1.4rem, 6vw, 2.4rem); }
 }
 
 .nav-shell {
