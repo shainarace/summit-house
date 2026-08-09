@@ -73,6 +73,30 @@ a { color: inherit; }
   mix-blend-mode: multiply;
 }
 
+.brand-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .9rem;
+  text-decoration: none;
+  color: inherit;
+}
+.brand-mark {
+  width: 64px;
+  height: auto;
+  display: block;
+}
+.brand-name {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.25rem;
+  color: var(--navy);
+  font-weight: 700;
+}
+
+@media (max-width: 780px) {
+  .brand-mark { width: 48px; }
+  .brand-name { font-size: 1.05rem; }
+}
+
 .nav-shell {
   border-top: 1px solid rgba(11,45,79,.08);
   background: var(--navy);
