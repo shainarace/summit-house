@@ -43,7 +43,7 @@ a { color: inherit; }
 .skip-link:focus { left: .5rem; top: .5rem; }
 
 .site-header {
-  background: #eee6d6;
+  background: transparent;
   backdrop-filter: blur(8px);
   border-bottom: 1px solid rgba(200,150,57,.34);
 }
@@ -52,7 +52,19 @@ a { color: inherit; }
   max-width: var(--max);
   margin: 0 auto;
   padding: 1.25rem 1.25rem .8rem;
+  position: relative;
+  z-index: 0;
+}
+.brand-wrap::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  bottom: 0;
+  width: 100vw;
   background: #eee6d6;
+  z-index: -1;
 }
 
 .brand-logo {
