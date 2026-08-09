@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apply | Summit House of Raleigh</title>
+  <meta name="description" content="Learn about eligibility and submit a preliminary inquiry to Summit House of Raleigh.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="brand-wrap">
+    <a href="index.html" aria-label="Summit House of Raleigh home">
+      <img class="brand-logo" src="assets/summit-house-logo.png" alt="Summit House of Raleigh">
+    </a>
+  </div>
+  <div class="nav-shell">
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="index.html" >Home</a>
+      <a href="apply.html" aria-current="page">Apply</a>
+      <a href="contact.html" >Contact Us</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" style="padding-bottom:2rem">
+    <p class="eyebrow">Apply</p>
+    <h1>Ready for what comes next?</h1>
+    <p class="lead">Summit House is intended for people with a strong start in recovery who are ready to keep moving forward in a structured community.</p>
+  </section>
+
+  <section class="section">
+    <div class="split">
+      <div class="panel">
+        <h2>Eligibility at a glance</h2>
+        <ul class="check-list">
+          <li>At least six months of sobriety.</li>
+          <li>Worked the 12 Steps with a sponsor in Alcoholics Anonymous.</li>
+          <li>Ready to live in a structured, accountable recovery environment.</li>
+          <li>Committed to continued recovery and building a stable, independent life.</li>
+        </ul>
+        <p class="note"><strong>Important:</strong> This page is for a preliminary inquiry only. Please do not send medical records, diagnoses, detailed treatment history, Social Security numbers, or other sensitive information through this form.</p>
+      </div>
+
+      <div class="panel">
+        <h2>Preliminary inquiry</h2>
+        <!-- EDIT: Connect this form to Formspree or another secure form provider before launch. -->
+        <form action="https://formspree.io/f/REPLACE_ME" method="POST" data-demo="true">
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel">
+            </div>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="contact-method">Preferred way to reach you</label>
+            <select id="contact-method" name="preferred_contact">
+              <option>Phone</option>
+              <option>Text</option>
+              <option>Email</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="referral">How did you hear about Summit House? <span style="font-weight:400">(optional)</span></label>
+            <input id="referral" name="referral">
+          </div>
+          <div class="field">
+            <label for="message">Anything you would like us to know? <span style="font-weight:400">(optional)</span></label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <button class="button" type="submit">Send inquiry</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-brand">Summit House of Raleigh</p>
+      <p>Recovery brought them this far. Summit House helps them build what comes next.</p>
+      <p class="smallprint">Raleigh, North Carolina · © 2026 Summit House of Raleigh</p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="apply.html">Apply</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
